@@ -14,6 +14,7 @@ import { Folder } from "./component/Folder";
 // founder @ghaith nahdi
 const App = () => {
         // acces function from useContext()
+        // acces functio from GlobalContext()
   return (
     <div className="App">
       <ContextProvider>
