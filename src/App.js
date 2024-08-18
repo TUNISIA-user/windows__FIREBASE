@@ -11,6 +11,7 @@ import HomeUser1 from "./component/HomeUser1";
 import Store from "./component/Store";
 import Error1 from "./component/Error1";
 import { Folder } from "./component/Folder";
+// founder @ghaith nahdi
 const App = () => {
         // acces function from useContext()
   return (
