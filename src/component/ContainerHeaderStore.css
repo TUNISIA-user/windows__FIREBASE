@@ -1,0 +1,148 @@
+.section1{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+.section1 img{
+   width: 30px;
+}
+
+.section2 input{
+    width: 350px;
+    height: 27px;
+    background-color: red;
+}
+.container-headerStore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(10, 167, 167);
+    flex-direction: row;
+    width: 92%;
+    position: absolute;
+    top: 0;
+    left: 141px;
+}
+.section3{
+    background-color: red;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+
+
+}
+.icon-NG{
+  
+   border-radius: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-NG img{
+    width: 40px;
+    border-radius: 30px;
+}
+.icon-remove span{ 
+    margin: 10px;
+    cursor: pointer;
+}
+ 
+
+.app-container-pres-header{
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+
+}
+
+
+.RightStoreBanner{
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+ .RightStoreBanner span{
+    margin-top: 30px;
+    font-size: 40px;
+    cursor: pointer;
+ }
+
+
+ 
+
+
+
+@media screen and (max-width: 833px) {
+    .section1{
+        background-color: red;
+        display: flex;
+        align-items: center;
+        
+    
+      
+    }
+    .microsftNet{
+        display: none;
+    }
+    .section1 img{
+       width: 30px;
+    }
+    
+    .section2 input{
+        width: 200px;
+        height: 37px;
+        background-color: rgb(218, 25, 25);
+    }
+    .container-headerStore{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        background-color: rgb(170, 19, 137);
+        
+        
+    }
+    .section3{
+        background-color: red;
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    
+    
+    }
+    .icon-NG{
+     
+        display: none;
+    }
+.icon-remove{
+    display: flex;
+    
+    
+}
+.RightStoreBanner{
+    display: none;
+}.container-headerStore{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+}

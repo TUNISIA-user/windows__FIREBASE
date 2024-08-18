@@ -1,0 +1,188 @@
+.container-folder{
+    width: 100%;
+    margin-top: 3px;
+    padding: 40px;
+    background-color: #cfcfcfa4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+ul li :hover{
+    background-color: white;
+    border-radius: 100%;
+ 
+}
+.container-folder-list{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(190, 185, 185);
+    width: 160px;
+    align-items: center;
+    
+}
+.searchinputBarhere{
+    width:600px;
+    height: 34px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.child-left-container{
+
+    width: 13%;
+    background-color: rgb(146, 137, 137);
+    height: 100vh;
+}
+
+
+.child-right-container{
+    width: 100%;
+    background-color: green;
+    height: 100vh;
+    
+}
+
+
+.Father-of-Container{
+    display: flex;
+    flex-direction: row;
+
+}
+.chlid-left-down{
+    width: 100%;
+    background-color: rgb(83, 74, 74);
+    
+}
+.child{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+
+.app-chlid-move-right{
+ 
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.child-right-container-inner-icon{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 5px;
+    
+}
+
+ 
+ 
+
+
+@media only screen and (max-width: 600px) {
+    .container-folder{
+        width: 100%;
+        margin-top: 3px;
+        padding: 12px;
+        background-color: #cfcfcfa4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li :hover{
+        background-color: white;
+        border-radius: 100%;
+     
+    }
+    .container-folder-list{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(116, 112, 112);
+        width: 60%;
+        align-items: center;
+        
+    }
+    .searchinputBarhere{
+        margin-top: 10px;
+        width:300px;
+        height: 34px;
+        border: none;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .child-left-container{
+
+        width: 50%;
+        background-color: red;
+        height: 100vh;
+    }
+    
+    
+    .child-right-container{
+        width: 100%;
+        background-color: green;
+        height: 100vh;
+    }
+    
+    
+    .Father-of-Container{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+
+
+
+
+
+
+
+
+    .chlid-left-down{
+        width: 100%;
+        background-color: rgb(83, 74, 74);
+        height: 100vh;
+    }
+    .child{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+    }
+    
+    
+    .app-chlid-move-right{
+     
+        margin-left: 1px;
+        
+    }
+
+    .xe{
+        font-size: 10px;
+    }
+  }
+
+ 

@@ -1,0 +1,121 @@
+.HeaderStoreApp1{
+    background-color: rgb(129, 123, 123);
+    position: absolute;
+    top: 60px;
+    left:140px;
+    width:92.24%;
+   
+}
+
+.HeaderStoreApp1 {
+    padding: 20px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Card2 {
+    height: 300px; /* Set your desired height */
+    width: 100%; /* Ensure it takes the full width of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+ 
+  }
+  
+
+  .topjeux{
+    display: flex;
+    
+  cursor: pointer;
+  flex-direction: column;
+ 
+  }
+
+  .topjeux span{
+        font-size: 30px;
+        display: flex;
+        
+  }
+  .class1{
+    display: flex;
+  }
+.topJeuxcard{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: red;
+  gap: 1px;
+  height: 400px;
+  overflow-x: auto;
+  
+  justify-content: center;
+ 
+}
+
+
+@media only screen and (max-width: 800px) {
+  .HeaderStoreApp1{
+    background-color: rgb(129, 123, 123);
+    position: absolute;
+    top: 60px;
+    left:20px;
+    width:92.24%;
+
+   
+}
+
+.HeaderStoreApp1 {
+    padding: 20px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Card2 {
+    height: 300px; /* Set your desired height */
+    width: 100%; /* Ensure it takes the full width of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  
+ 
+  }
+  
+
+  .topjeux{
+    display: flex;
+    
+  cursor: pointer;
+  flex-direction: column;
+ 
+ 
+  }
+
+  .topjeux span{
+        font-size: 30px;
+        display: flex;
+        
+  }
+  .class1{
+    display: flex;
+  }
+.topJeuxcard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(166, 214, 34);
+  gap: 1px;
+  height: 400px;
+  
+  justify-content: center;
+ 
+}
+
+}

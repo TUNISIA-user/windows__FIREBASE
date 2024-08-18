@@ -1,0 +1,24 @@
+.Folder img{
+    width: 60px;
+    cursor: pointer;
+}
+
+.container-pc-from-MicrosftStore{
+    margin-top: 10px;
+    margin-left: 10px;
+  
+    width: 40%;
+}
+ 
+.Folder-install-microsft img{
+    width: 60px;
+    cursor: pointer;
+     
+}
+.Folder-install-microsft{
+    background-color: rgb(29, 182, 209);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:40px;
+}

@@ -1,0 +1,630 @@
+.Container-Screen-Shoot{
+ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+ 
+}
+
+.Screen{
+   
+  
+    background-image: url("/public/images/WINDOW.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.banner{
+ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;cursor: pointer;
+      align-items: center;
+    
+     
+}
+.banner1:hover{
+  
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+
+.banner-top{
+    width: 50%;
+    margin-left: 4px;
+    margin-bottom: 23px;
+    height: 500px;
+    border: 5px solid black;
+ 
+    position: absolute;
+    bottom: 60px;
+    background-color: #0d1117;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.banner-top  .banner-top-section1{
+   
+    width: 13.22%;
+    
+ 
+
+}
+
+
+
+.banner-top  .banner-top-section2{
+    
+    width: 50.22%;
+    
+}
+ 
+.banner-top  .banner-top-section2 img{
+   object-fit: cover;
+}
+ 
+
+
+
+.banner-top  .banner-top-section3{
+ 
+    width: 100%;
+}
+
+.icon-section2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.banner-top-section1-inner{
+   
+    cursor:pointer;
+   height: 470px;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: space-between;
+ 
+}
+
+.icon-section2{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+
+}
+
+
+.X:hover{
+    background-color: rgb(228, 222, 222);
+    border-radius: 10px;
+     
+}
+
+
+.section-user-profile img {
+    
+    width: 12%;
+    border-radius: 100%;
+    animation: rotate 2s linear infinite; /* Apply rotation animation */
+}
+
+/* Define the keyframes for the rotation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Start from 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* Rotate to 360 degrees */
+    }
+}
+
+ 
+.section-user-profile{
+    background-color: rgb(101, 164, 216);
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+ 
+
+.Search-icon{
+    margin-left: 10px;
+    border: none;
+    width:400px;
+    height: 30px;
+}
+
+.Search-icon:hover{
+   border: 2px solid rgba(4, 11, 122, 0.404);
+}
+
+
+
+
+.web-app-app{
+    width: 35px;
+}
+.web-app-appliaction{
+    display: flex;
+    align-items: center;
+   
+    width: 30%;
+    justify-content: space-around;
+    margin-left:400px;
+ 
+}
+
+
+
+.Timer{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 2px;
+}
+
+/* 
+------------------------------------------------ */
+
+
+.card1 img{
+    width: 30px;
+    margin-left: 10px;
+}
+ 
+.card1 {
+    background-color: rgb(238, 231, 231);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 10px;
+    cursor: pointer;
+     
+}
+.banner-top-section2{
+    overflow: auto;
+}
+ 
+
+.card1-img-title{
+    background-color: rgb(32, 180, 206);
+    font-size: 20px;
+    
+}
+ 
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    .Screen {
+     
+        border: 4px solid black;
+        background-image: url("/public/images/peakpx.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+.banner{
+    background-color: rgb(121, 167, 95);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+.banner-top{
+    width: 97.44%;
+    margin-left: 1px;
+    margin-bottom:12px;
+    height: 400px;
+    border: 5px solid black;
+    background-color: red;
+    position: absolute;
+    bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-top  .banner-top-section1{
+    background-color: red;
+    width: 13.22%;
+    
+ 
+
+}
+
+
+
+.banner-top  .banner-top-section2{
+    background-color: rgb(80, 202, 31);
+    width: 80.22%;
+}
+.banner-top  .banner-top-section2 img{
+   width: 80%;
+   object-fit: cover;
+}
+
+.banner-top  .banner-top-section3{
+    background-color: rgb(33, 80, 167);
+    width: 100%;
+}
+
+.icon-section2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.banner-top-section1-inner{
+    background-color: rgb(61, 65, 61);
+    cursor:pointer;
+   height: 320px;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: space-between;
+ 
+}
+
+.icon-section2{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.section-user-profile{
+    width: 100%;
+     
+
+}
+
+
+.section-user-profile img{
+    width: 13%;
+    
+}
+
+
+
+
+ 
+.section-user-profile{
+    background-color: rgb(80, 74, 74);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+ 
+
+.Search-icon{
+    margin-left: 10px;
+    border: none;
+    width:400px;
+    height: 30px;
+}
+
+.Search-icon:hover{
+   border: 2px solid rgba(4, 11, 122, 0.404);
+}
+
+
+
+
+.web-app-app{
+    width: 35px;
+}
+.web-app-appliaction{
+   
+    display: none; 
+}
+
+
+
+.Timer{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 2px;
+
+}
+
+
+
+
+ 
+ 
+ 
+
+  
+  }
+
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  @media (max-width: 1440px) {
+
+
+ 
+/* 
+  ---------------------------------------------------------------- */
+  .Container-Screen-Shoot{
+ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: red;
+    
+   
+  }
+  
+  .Screen{
+     
+    
+      background-image: url("/public/images/WINDOW.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      background-repeat: no-repeat;
+  }
+  
+  .banner{
+      background-color: rgb(121, 167, 95);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 20px;
+      display: flex;cursor: pointer;
+        align-items: center;
+      
+       
+  }
+  .banner1:hover{
+    
+      cursor: pointer;
+      border: 1px solid black;
+      border-radius: 100%;
+  }
+  
+  
+  .banner-top{
+      width: 50%;
+      margin-left: 4px;
+      margin-bottom: 23px;
+      height: 500px;
+      border: 5px solid black;
+      background-color: rgb(241, 238, 238);
+      position: absolute;
+      bottom: 60px;
+       
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .banner-top  .banner-top-section1{
+      background-color: red;
+      width: 13.22%;
+      
+   
+  
+  }
+  
+  
+  
+  .banner-top  .banner-top-section2{
+      background-color: rgb(80, 202, 31);
+      width: 50.22%;
+      
+  }
+   
+  .banner-top  .banner-top-section2 img{
+     object-fit: cover;
+  }
+   
+  
+  
+  
+  .banner-top  .banner-top-section3{
+      background-color: rgb(28, 80, 175);
+      width: 100%;
+  }
+  
+  .icon-section2{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  
+  
+  .banner-top-section1-inner{
+      background-color: green;
+      cursor:pointer;
+     height: 470px;
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     justify-content: space-between;
+   
+  }
+  
+  .icon-section2{
+      display: flex;
+      gap: 40px;
+      cursor: pointer;
+  
+  }
+  
+  
+  .X:hover{
+      background-color: rgb(228, 222, 222);
+      border-radius: 10px;
+       
+  }
+  
+  
+  .section-user-profile img {
+      
+      width: 12%;
+      border-radius: 100%;
+      animation: rotate 2s linear infinite; /* Apply rotation animation */
+  }
+  
+  /* Define the keyframes for the rotation */
+  @keyframes rotate {
+      from {
+          transform: rotate(0deg); /* Start from 0 degrees */
+      }
+      to {
+          transform: rotate(360deg); /* Rotate to 360 degrees */
+      }
+  }
+  
+   
+  .section-user-profile{
+      background-color: rgb(101, 164, 216);
+      width: 18%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 10px;
+  }
+   
+  
+  .Search-icon{
+      margin-left: 10px;
+      border: none;
+      width:400px;
+      height: 30px;
+  }
+  
+  .Search-icon:hover{
+     border: 2px solid rgba(4, 11, 122, 0.404);
+  }
+  
+  
+  
+  
+  .web-app-app{
+      width: 35px;
+  }
+  .web-app-appliaction{
+      display: flex;
+      align-items: center;
+      background-color: rgb(71, 71, 71);
+      width: 30%;
+      justify-content: space-around;
+      margin-left:400px;
+   
+  }
+  
+  
+  
+  .Timer{
+      font-size: 30px;
+      font-family: sans-serif;
+      color: white;
+      padding-top: 2px;
+  }
+  
+  /* 
+  ------------------------------------------------ */
+  
+  
+  .card1 img{
+      width: 30px;
+      margin-left: 10px;
+  }
+  
+  .card1 {
+      background-color: rgb(238, 231, 231);
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin: 10px;
+      cursor: pointer;
+       
+  }
+  .banner-top-section2{
+      overflow: auto;
+  }
+   
+  
+  .card1-img-title{
+      background-color: rgb(32, 180, 206);
+      font-size: 20px;
+      
+  }
+  
+}
+
+.web-app-app {
+    transition: background-color 0.3s ease, width 0.3s ease;
+ }
+ 
+ .web-app-app:hover {
+ 
+    width: 45px;
+ }
+ 
+ 
