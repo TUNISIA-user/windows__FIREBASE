@@ -12,20 +12,7 @@ import Store from "./component/Store";
 import Error1 from "./component/Error1";
 import { Folder } from "./component/Folder";
 const App = () => {
-  // const { FunctionDispatch } = Nahdi_Gayth(); // Access FunctionDispatch from context
-
-  // useEffect(() => {
-  //   const unsubscribe = auth.onAuthStateChanged((authUser) => {
-  //     FunctionDispatch({
-  //       type: "SET_USER",
-  //       user: authUser,
-  //     });
-  //   });
-
-  //   // Clean up subscription on component unmount
-  //   return () => unsubscribe();
-  // }, [FunctionDispatch]);
-
+        // acces function from useContext()
   return (
     <div className="App">
       <ContextProvider>
