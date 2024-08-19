@@ -145,7 +145,7 @@ const LoginFireBase1 = () => {
       </div>
  
 
-    <button    onClick={handleButtonCreateReact1} >Sign in 1 </button>
+    <button    onClick={handleButtonCreateReact1} >Sign in </button>
     <button onClick={handleButtonCreateReact} >Create Acount </button>
     </form>
 
