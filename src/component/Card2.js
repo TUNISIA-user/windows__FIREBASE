@@ -4,7 +4,7 @@ import { Nahdi_Gayth } from '../context/GlobalContext'
  
 const Card2 = ({id,title,img}) => {
     const Move = Nahdi_Gayth();
- 
+     // right  change this button from this data
      const HandelClick = (e)=>{
       e.preventDefault();
       Move.FunctionDispatch({
